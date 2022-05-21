@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 70,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "NBC 5 Dallas-Fort Worth"
+      },
+      "author": null,
+      "title": "ERCOT Asks Texans to Conserve Power Until 8 P.M., Through the Weekend - NBC 5 Dallas-Fort Worth",
+      "description": "ERCOT is putting out a call for all Texans to conserve energy through 8 p.m. Friday and through the weekend.",
+      "url": "https://www.nbcdfw.com/news/local/texas-news/ercot-asks-texans-to-conserve-power-until-8-p-m-through-the-weekend/2967867/",
+      "urlToImage": "https://media.nbcdfw.com/2022/02/power-lines-2.png?resize=1200%2C675&quality=85&strip=all",
+      "publishedAt": "2022-05-14T01:55:24Z",
+      "content": "ERCOT, Texas' power grid operator, is putting out a call for all Texans to conserve energy over the next few days as we head into a weekend with potentially record heat.\r\nIn a statement, the Electric… [+1479 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Tami Luhby",
+      "title": "These families buy about half of infant formula nationwide. Here's how the Biden administration is trying to help them - CNN",
+      "description": "The Biden administration is seeking to make it easier for low-income families to buy whatever baby formula is available on store shelves amid a nationwide shortage.",
+      "url": "https://www.cnn.com/2022/05/13/politics/baby-formula-shortage-wic-low-income-families/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220513165723-infant-formula-charlotte-220510.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2022-05-14T00:54:00Z",
+      "content": "The Biden administration is seeking to make it easier for low-income families to buy whatever baby formula is available on store shelves amid a nationwide shortage.\r\nAbout half of the infant formula … [+3565 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Cramer's game plan for the trading week of May 16 - CNBC Television",
+      "description": "CNBC's Jim Cramer previewed next week's roster of earnings and gave his thoughts on the reporting companies in Friday's episode of \"Mad Money.\"",
+      "url": "https://www.youtube.com/watch?v=H9F6KwABgGU",
+      "urlToImage": "https://i.ytimg.com/vi/H9F6KwABgGU/hqdefault.jpg",
+      "publishedAt": "2022-05-13T23:47:25Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Krystal Hur",
+      "title": "Cramer's lightning round: BigCommerce is not a buy - CNBC",
+      "description": "\"Mad Money\" host Jim Cramer rings the lightning round bell, which means he's giving his answers to callers' stock questions at rapid speed.",
+      "url": "https://www.cnbc.com/2022/05/13/cramers-lightning-round-bigcommerce-is-not-a-buy.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/103507374-104044814.jpg?v=1477478158&w=1920&h=1080",
+      "publishedAt": "2022-05-13T23:22:50Z",
+      "content": "Tellurian Inc: \"For younger people out there, listen to me. I want you to spend five bucks and buy this.\"\r\nBigCommerce Holdings Inc: \"I can't play ball on that one.\"\r\nBlock Inc: \"They did a very good… [+189 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Over a trillion dollars wiped out of cryptocurrency market - Sky News",
+      "description": "More than a trillion dollars has been wiped out after investors started selling shares in the top cryptocurrencies, with Bitcoin plunging to its 2020 low.The...",
+      "url": "https://www.youtube.com/watch?v=aKU0fIinUd0",
+      "urlToImage": "https://i.ytimg.com/vi/aKU0fIinUd0/maxresdefault.jpg",
+      "publishedAt": "2022-05-13T21:45:06Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Michael Corkery",
+      "title": "Stocks Return to Earth, With the S&P 500 Nearing a Bear Market - The New York Times",
+      "description": "The market has been producing double-digit returns for investors, even at moments of great national strife. But the party has ended and it may be a long time before it begins again.",
+      "url": "https://www.nytimes.com/2022/05/13/business/stock-market.html",
+      "urlToImage": "https://static01.nyt.com/images/2022/05/13/business/13stockmarket-01/13stockmarket-01-facebookJumbo.jpg",
+      "publishedAt": "2022-05-13T21:26:02Z",
+      "content": "But the downdraft has sunk the share prices of companies that represent innovation and the future, too; Amazon is down more than 30 percent since the start of the year and Alphabet, Googles parent, i… [+1775 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Dean Seal, Sarah E. Needleman and Cara Lombardo",
+      "title": "Elon Musk Says His $44 Billion Twitter Deal Is ‘On Hold’ - The Wall Street Journal",
+      "description": "Elon Musk said his deal to buy Twitter was “on hold,” raising questions about the takeover and sending shares of the messaging service lower.",
+      "url": "https://www.wsj.com/articles/elon-musk-tweets-that-twitter-deal-is-temporarily-on-hold-11652436335",
+      "urlToImage": "https://images.wsj.net/im-543725/social",
+      "publishedAt": "2022-05-13T21:12:00Z",
+      "content": "Elon Musk said his planned acquisition of Twitter was temporarily on hold because of concerns about fake accounts, a surprise twist that jolted investors and raised questions about his willingness to… [+326 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Taylor Hatmaker",
+      "title": "Twitter CEO Parag Agrawal says he fired key execs due to 'challenging' economy - TechCrunch",
+      "description": "Twitter’s new CEO Parag Agrawal has largely remained silent through the company’s ongoing rollercoaster ride, even as its likely future owner Elon Musk continues to very much do the opposite. But Agrawal finally broke his silence following an especially tumul…",
+      "url": "https://techcrunch.com/2022/05/13/twitter-ceo-tweets-musk-deal/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/08/twitter-update-august-2021.jpg?w=711",
+      "publishedAt": "2022-05-13T21:05:08Z",
+      "content": "Twitter’s new CEO Parag Agrawal has largely remained silent through the company’s ongoing rollercoaster ride, even as its likely future owner Elon Musk continues to very much do the opposite.\r\nBut Ag… [+3418 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Samantha Subin, Jesse Pound",
+      "title": "Nasdaq pops 3%, Dow jumps 400 points in comeback rally following steep losses earlier in the week - CNBC",
+      "description": "Stocks jumped Friday, as investors looked to steer the S&P 500 away from official bear market territory following a week of heavy losses.",
+      "url": "https://www.cnbc.com/2022/05/12/stock-futures-open-to-close-bear-market.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107061087-1652472440128-a1_img_100_99_112_1917655_1000-1652472340245.jpg?v=1652472497&w=1920&h=1080",
+      "publishedAt": "2022-05-13T21:03:45Z",
+      "content": "Stocks jumped Friday, trimming losses from another down week and preventing the S&amp;P 500 from tumbling into bear market territory.\r\nThe Dow Jones Industrial Average rose 466.36 points to 32,196.66… [+3477 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Matt Egan",
+      "title": "First on CNN: Record-high gas prices slash US spending by $9 billion a month - CNN",
+      "description": "Pain at the pump may be forcing Americans to cut spending elsewhere.",
+      "url": "https://www.cnn.com/2022/05/13/economy/gas-prices-consumer-spending-jp-morgan/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220510090204-gas-prices.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2022-05-13T20:54:00Z",
+      "content": "Pain at the pump may be forcing Americans to cut spending elsewhere.\r\nIn a report shared first with CNN, JPMorgan analyzed Chase card spending data and estimated that the 20% spike in gas prices sinc… [+1898 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "This is a generational buying opportunity, says Dan Ives - CNBC Television",
+      "description": null,
+      "url": "https://www.youtube.com/supported_browsers?next_url=https:%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D5s3L6-qc5Ok",
+      "urlToImage": null,
+      "publishedAt": "2022-05-13T20:52:46Z",
+      "content": "Your browser isnt supported anymore. Update it to get the best YouTube experience and our latest features. Learn more\r\nRemind me later"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "OregonLive"
+      },
+      "author": "The Associated Press",
+      "title": "‘Deeply sorry’ Alaska CEO: Flight cancellations to continue - OregonLive",
+      "description": "Passengers whose travel plans have been disrupted have found little help from the airline in finding alternative ways to their destination, with customer service phone lines citing hold times of up to 10 hours.",
+      "url": "https://www.oregonlive.com/business/2022/05/deeply-sorry-alaska-ceo-flight-cancellations-to-continue.html",
+      "urlToImage": "https://www.oregonlive.com/resizer/I0rAK1LE6ayc0P9MIdai6Lktgr8=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/3GWT57SSYND7DCA437DFFWY34Q.JPG",
+      "publishedAt": "2022-05-13T20:51:00Z",
+      "content": "SEATTLE The CEO of Alaska Airlines says the high level of flight cancellations since April will continue through this month.\r\nThe Seattle Times reports that Ben Minicucci said in a message to employe… [+1416 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "I think it's an oversold rally, says Katie Stockton - CNBC Television",
+      "description": "Katie Stockton, Fairlead Strategies founder, joins 'Closing Bell' to discuss the state of the markets and whether she is buying. She also discusses bitcoin a...",
+      "url": "https://www.youtube.com/watch?v=E5Kgpls_MMU",
+      "urlToImage": "https://i.ytimg.com/vi/E5Kgpls_MMU/hqdefault.jpg",
+      "publishedAt": "2022-05-13T20:46:08Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Ray Parisi",
+      "title": "This flashy Bel Air mansion that was listed at $87.8 million flopped at auction — and now the seller is furious - CNBC",
+      "description": "\"Horrible, Horrible, Horrible!\" was how the seller, who filed for Chapter 11 last year, characterized the auction results to CNBC.",
+      "url": "https://www.cnbc.com/2022/05/13/bel-air-mansion-flops-at-auction-after-being-listed-at-87point8-million.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/106892804-1622901492702777Sarbonne-print-17-Marc-jpg?v=1622901576&w=1920&h=1080",
+      "publishedAt": "2022-05-13T20:45:11Z",
+      "content": "An over-the-top modern mansion in Bel Air was listed for $87.8 million for an auction this week. But the highest bid came in just under $45.8 million, according to the home's seller, dermatologist-tu… [+3833 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Joseph Walker",
+      "title": "Moderna Says It Wasn’t Aware of Investigation Into Its New CFO - The Wall Street Journal",
+      "description": "The biotechnology company said it didn’t know about the financial-reporting investigation by Jorge Gomez’s former employer until after he started with Moderna.",
+      "url": "https://www.wsj.com/articles/moderna-says-it-wasnt-aware-of-investigation-into-its-new-cfo-11652465624",
+      "urlToImage": "https://images.wsj.net/im-544059/social",
+      "publishedAt": "2022-05-13T20:31:00Z",
+      "content": "Moderna Inc. released new details about the abrupt departure of Chief Financial Officer Jorge Gomez, saying that it didnt know of an internal investigation by his former employer Dentsply Sirona Inc.… [+235 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cointelegraph"
+      },
+      "author": "Sam Bourgi",
+      "title": "Crypto Biz: Luna’s meltdown will live on in infamy, May 5–11, 2022 - Cointelegraph",
+      "description": "The Terra ecosystem meltdown had a cascading effect on the broader cryptocurrency market, triggering one of the most violent selloffs in history.",
+      "url": "https://cointelegraph.com/news/crypto-biz-luna-s-meltdown-will-live-on-in-infamy-may-5-11-2022",
+      "urlToImage": "https://images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjItMDUvNjg4OTA2YTMtNjljNy00OGYzLTg3ODEtMWVlNzUxZGYzMjVkLmpwZw==.jpg",
+      "publishedAt": "2022-05-13T20:06:18Z",
+      "content": "Terras meltdown forced cryptocurrency investors to ask a question they never thought was possible: Will TerraUSD (UST) or Terra (LUNA) reach $1.00 first? The magnitude of this question provides a sob… [+4145 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Bitcoin rebounds to $30000, LUNA crashes to $0 and Elon Musk pauses Twitter deal: CNBC Crypto World - CNBC Television",
+      "description": "CNBC Crypto World features the latest news and daily trading updates from the digital currency markets and provides viewers with a look at what’s ahead with ...",
+      "url": "https://www.youtube.com/watch?v=8P7TBWou7jc",
+      "urlToImage": "https://i.ytimg.com/vi/8P7TBWou7jc/maxresdefault.jpg",
+      "publishedAt": "2022-05-13T19:26:03Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Reuven Fenton, Mark Lungariello",
+      "title": "New Jersey gas stations lower prices to protest ban on self-service - New York Post ",
+      "description": "Dozens of New Jersey gas stations dropped their prices Friday to protest the state ban on self-service, as skyrocketing fuel prices hit record highs ahead of the start of summer.",
+      "url": "https://nypost.com/2022/05/13/nj-gas-stations-lower-prices-to-protest-ban-on-self-serve/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/05/gas-jersey.jpg?quality=75&strip=all&w=1024",
+      "publishedAt": "2022-05-13T19:03:00Z",
+      "content": "Dozens of New Jersey gas stations dropped their prices Friday to protest the state ban on self-service, as skyrocketing fuel prices hit record highs ahead of the start of summer.\r\nThe reduced prices … [+4599 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Intercept"
+      },
+      "author": "Lee Fang",
+      "title": "Baby Formula Industry Lobbied to Weaken Safety Standards - The Intercept",
+      "description": "The current formula shortage is traced in part to a contamination-induced shutdown at a key manufacturing plant.",
+      "url": "https://theintercept.com/2022/05/13/baby-formula-shortage-abbott-bacteria-safety-testing-lobbying/",
+      "urlToImage": "https://theintercept.imgix.net/wp-uploads/sites/1/2022/05/GettyImages-849567168-abott-nutritions-lobby-bacteria.jpg?auto=compress%2Cformat&q=90&fit=crop&w=1200&h=800",
+      "publishedAt": "2022-05-13T18:38:00Z",
+      "content": "The Abbott Nutrition\r\n facility in Sturgis, Michigan, which produces much of the U.S. supply of baby formula, shut down in February, bringing production lines to a grinding halt. Following a voluntar… [+5499 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Allison Prang",
+      "title": "The Companies Cutting Staff, Freezing Hiring or Slashing Costs: See the List - The Wall Street Journal",
+      "description": "Even amid a tight labor market and low unemployment, some public companies and startups are turning cautious amid falling markets and economic concerns.",
+      "url": "https://www.wsj.com/articles/the-companies-cutting-staff-freezing-hiring-or-slashing-costs-see-the-list-11652389460",
+      "urlToImage": "https://images.wsj.net/im-541269/social",
+      "publishedAt": "2022-05-13T18:38:00Z",
+      "content": null
+    }
+  ]
+}
