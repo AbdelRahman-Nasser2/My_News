@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:mynews/layout/homeLayoutScreen.dart';
+import 'package:mynews/shared/cubit/cubit.dart';
 import 'package:mynews/shared/cubit/themecubit.dart';
 import 'package:mynews/shared/cubit/themestates.dart';
 import 'package:mynews/shared/network/local/sharedpreference/sharedpreference.dart';
@@ -16,7 +17,7 @@ void main() async {
   await CacheHelper.init();
 
   bool? isDark = CacheHelper.getBoolean(key: 'isDark');
-  runApp(MyApp());
+  runApp(MyApp(isDark));
 }
 
 enum MenuValues {
@@ -26,21 +27,37 @@ enum MenuValues {
 }
 
 class MyApp extends StatelessWidget {
-  // final bool isDark;
+  final bool? isDark;
 
-  MyApp();
+  MyApp(this.isDark);
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (BuildContext context) => ThemeCubit()..themeChange(),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(
+            create: (BuildContext context) => AppCubit()
+              // ..getData()
+              ..getDataSports()
+              ..getDataScience()
+              // ..getDataSearch(value)
+              ..getDataBusiness()),
+        BlocProvider(
+          create: (BuildContext context) =>
+              ThemeCubit()..themeChange(fromShared: isDark),
+        )
+      ],
       child: BlocConsumer<ThemeCubit, ThemeStates>(
           listener: (BuildContext context, ThemeStates state) {},
           builder: (BuildContext context, ThemeStates state) {
             return MaterialApp(
               theme: ThemeData(
+                indicatorColor: Colors.white,
+                primaryColorLight: Colors.black,
+                bottomAppBarColor: Colors.white,
                 scaffoldBackgroundColor: Colors.white,
                 appBarTheme: AppBarTheme(
+                    iconTheme: IconThemeData(color: Colors.black),
                     actionsIconTheme: IconThemeData(color: Colors.black),
                     titleTextStyle: TextStyle(
                       color: Colors.black,
@@ -75,12 +92,25 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.w600,
                     color: Colors.black,
                   ),
+                  labelSmall: TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.blueGrey,
+                  ),
                 ),
               ),
               darkTheme: ThemeData(
+                indicatorColor: HexColor("333739"),
+
+                bottomAppBarColor: HexColor("333739"),
+
+                // COLOR: HexColor("333739"),
+                // primaryColor: HexColor("333739"),
+                colorSchemeSeed: HexColor("333739"),
                 backgroundColor: HexColor("333739"),
                 scaffoldBackgroundColor: HexColor("333739"),
                 appBarTheme: AppBarTheme(
+                    iconTheme: IconThemeData(color: Colors.white),
                     actionsIconTheme: IconThemeData(color: Colors.white),
                     titleTextStyle: TextStyle(
                       color: Colors.white,
@@ -115,9 +145,14 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.w600,
                     color: Colors.white,
                   ),
+                  labelSmall: TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.blueGrey,
+                  ),
                 ),
               ),
-              themeMode: ThemeCubit.get(context).isDark
+              themeMode: (ThemeCubit.get(context).isDark)
                   ? ThemeMode.dark
                   : ThemeMode.light,
               debugShowCheckedModeBanner: false,

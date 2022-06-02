@@ -52,6 +52,17 @@ class AppGetArticlesBusinessErrorState extends AppStates {
   AppGetArticlesBusinessErrorState(this.error);
 }
 
+//Api Business
+class AppGetArticlesUSBusinessState extends AppStates {}
+
+class AppGetArticlesUSBusinessLoadingState extends AppStates {}
+
+class AppGetArticlesUSBusinessErrorState extends AppStates {
+  final String error;
+
+  AppGetArticlesUSBusinessErrorState(this.error);
+}
+
 //Api Science
 class AppGetArticlesScienceState extends AppStates {}
 
@@ -61,4 +72,15 @@ class AppGetArticlesScienceErrorState extends AppStates {
   final String error;
 
   AppGetArticlesScienceErrorState(this.error);
+}
+
+//Api Search
+class AppGetSearchState extends AppStates {}
+
+class AppGetSearchLoadingState extends AppStates {}
+
+class AppGetSearchErrorState extends AppStates {
+  final String error;
+
+  AppGetSearchErrorState(this.error);
 }

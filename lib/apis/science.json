@@ -1,84 +1,32 @@
 {
   "status": "ok",
-  "totalResults": 32,
+  "totalResults": 27,
   "articles": [
-    {
-      "source": {
-        "id": null,
-        "name": "Youm7.com"
-      },
-      "author": null,
-      "title": "انخفاض ملحوظ فى درجات الحرارة.. تعرف على حالة الطقس المتوقعة حتى الإثنين - اليوم السابع",
-      "description": "كشفت الهيئة العامة للأرصاد الجوية عن  حالة الطقس المتوقعة  حتى الاثنين المقبل، حيث تشهد البلاد، طقس ربيعى معتدل نهارا على القاهرة الكبرى والوجه البحرى.",
-      "url": "https://www.youm7.com/story/2022/4/21/انخفاض-ملحوظ-فى-درجات-الحرارة-تعرف-على-حالة-الطقس-المتوقعة/5734959",
-      "urlToImage": "https://img.youm7.com/large/202107030232183218.jpg",
-      "publishedAt": "2022-04-20T23:00:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Youm7.com"
-      },
-      "author": null,
-      "title": "درجات الحرارة اليوم الخميس 21/4/2022 فى مصر - اليوم السابع",
-      "description": "تتوقع هيئة الأرصاد الجوية أن يشهد اليوم الخميس، استمرار  انخفاض فى درجات الحرارة على كافة الأنحاء، ليسود طقس ربيعى معتدل  نهارا على القاهرة الكبرى والوجه البحرى، لطيف على السواحل الشمالية.",
-      "url": "https://www.youm7.com/story/2022/4/21/درجات-الحرارة-اليوم-الخميس-21-4-2022-فى-مصر/5734927",
-      "urlToImage": "https://img.youm7.com/large/202107290138103810.jpg",
-      "publishedAt": "2022-04-20T22:00:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Saharamedias.net"
-      },
-      "author": "سيدي محمد شمّاد",
-      "title": "موريتانيا.. الأرصاد الجوية تتوقع ارتفاع درجات الحرارة - صحراء ميديا",
-      "description": "أعلنت الهيئة الوطنية للأرصاد الجوية، اليوم الأربعاء، أن درجات الحرارة سترتفع في يوم غد على مناطق متفرقة من موريتانيا. وتوقعت الهيئة أن تصل درجات الحرارة القصوى في بعض المناطق إلى الأربعينيات، خاصة في",
-      "url": "https://www.saharamedias.net/185239-%d9%85%d9%88%d8%b1%d9%8a%d8%aa%d8%a7%d9%86%d9%8a%d8%a7-%d8%a7%d9%84%d8%a3%d8%b1%d8%b5%d8%a7%d8%af-%d8%a7%d9%84%d8%ac%d9%88%d9%8a%d8%a9-%d8%aa%d8%aa%d9%88%d9%82%d8%b9-%d8%a7%d8%b1%d8%aa%d9%81%d8%a7-5/",
-      "urlToImage": "https://i0.wp.com/www.saharamedias.net/wp-content/uploads/2022/04/حرارة.jpg?fit=730%2C438&ssl=1",
-      "publishedAt": "2022-04-20T17:08:44Z",
-      "content": null
-    },
     {
       "source": {
         "id": null,
         "name": "Aljazeera.net"
       },
-      "author": "هشام بومجوط",
-      "title": "من قلب غزة إلى العالم العربي.. الدكتور حازم سكيك يقدم المحتوى الفيزيائي العربي الأكثر انتشارا - الجزيرة نت",
-      "description": "الدكتور حازم سكيك أستاذ علوم الفيزياء بجامعة الأزهر بقطاع غزة، صاحب باع طويل في مجال التواصل العلمي على الإنترنت بدأ منذ عام 2001، وحول مسيرته وقنواته ومواقعه المتخصصة في الفيزياء حاورته الجزيرة نت.",
-      "url": "https://www.aljazeera.net/news/science/2022/4/20/حازم-سكيك،-أستاذ-الفيزياء-بجامعة",
-      "urlToImage": "https://www.aljazeera.net/wp-content/uploads/2022/04/حازم-سكيك-1-.jpg?resize=1200%2C630",
-      "publishedAt": "2022-04-20T15:31:23Z",
-      "content": "()\r\n2001 .\r\n \"\" .\r\n :\r\n 2001 ()\r\n18 / 1965 1983.\r\n 1987 1989 1991 .\r\n 1993 .\r\n .\r\n \"\" \"\" (MOOC) ( ) .\r\n ()\r\n12 .\r\n .\r\n 2001 .\r\n .\r\n .\r\n 2005 ( ) .\r\n 2006 2009 .\r\n ()\r\n2009 500 12 .\r\n .\r\n 12 .\r\n : ()\r… [+188 chars]"
+      "author": "محمد شعبان",
+      "title": "تضمنت 11 عالما بينهم عربية.. الإعلان عن أسماء الفائزين بجائزة كافلي العالمية في العلوم - الجزيرة نت",
+      "description": "أعلنت الأكاديمية النرويجية للعلوم والآداب أسماء الفائزين بجائزة كافلي العالمية لعام 2022. وتمنح الجائزة للعلماء الذين أسهموا في تغيير فهمنا عن الأكوان الكبيرة والصغيرة والمعقدة من حولنا.",
+      "url": "https://www.aljazeera.net/news/science/2022/6/1/تضمنت-11-عالما-أحدهما-عربية-الإعلان-عن",
+      "urlToImage": "https://www.aljazeera.net/wp-content/uploads/2022/06/كافلي-1.jpeg?resize=1200%2C630",
+      "publishedAt": "2022-06-01T15:06:04Z",
+      "content": "/ 2022 \" \" (Kavli Prize) .\r\n :\r\n1. () () ( ) .\r\n2. ( ) ( ) () ( ) - - .\r\n3. () ( ) ( / ) .\r\n ( ) ( ) ( ). . / .\r\n 2008. 65 10 :\r\n 2020. 2021 \" \".2018. 2020 \"- 9\" .2016. 2017 \" \".\r\nJennifer Doudna hon… [+396 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Mosaiquefm.net"
+        "name": "Youm7.com"
       },
       "author": null,
-      "title": "جمعية علوم الفلك تعلن عن أوّل أيام عيد الفطر - Mosaiquefm.net",
-      "description": "جمعية علوم الفلك تعلن عن أوّل أيام عيد الفطر",
-      "url": "https://www.mosaiquefm.net/ar/%D8%AA%D9%88%D9%86%D8%B3-%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%88%D8%B7%D9%86%D9%8A%D8%A9/1039286/%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%B9%D9%84%D9%88%D9%85-%D8%A7%D9%84%D9%81%D9%84%D9%83-%D8%AA%D8%B9%D9%84%D9%86-%D8%B9%D9%86-%D8%A3%D9%88-%D9%84-%D8%A3%D9%8A%D8%A7%D9%85-%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D9%81%D8%B7%D8%B1",
-      "urlToImage": "https://content.mosaiquefm.net/uploads/content/thumbnails/1650444245_media.jpg",
-      "publishedAt": "2022-04-20T08:40:00Z",
+      "title": "علماء يكتشفون أكبر نبات على الأرض فى أستراليا.. حجمه يفوق مانهاتن 3 مرات - اليوم السابع",
+      "description": "اكتشف علماء أكبر وربما أقدم نبات معروف على وجه الأرض قبالة سواحل أستراليا، وهو عبارة عن عشبة بحرية تشكل نباتا واحدا، يصل حجمه إلى ثلاثة أضعاف حجم مدينة مانهاتن الأمريكية.",
+      "url": "https://www.youm7.com/story/2022/6/1/علماء-يكتشفون-أكبر-نبات-على-الأرض-فى-أستراليا-حجمه-يفوق/5784555",
+      "urlToImage": "https://img.youm7.com/large/202206010316401640.jpg",
+      "publishedAt": "2022-06-01T13:30:00Z",
       "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Masrawy.com"
-      },
-      "author": "مصراوي",
-      "title": "معهد الفلك: تتعذر رؤية الهلال السبت في مصر والدول العربية.. وعيد الفطر الاثنين - Masrawy - مصراوي",
-      "description": "معهد الفلك تتعذر رؤية الهلال السبت في مصر والدول العربية وعيد الفطر الاثنين | مصراوى",
-      "url": "https://www.masrawy.com/ramadan/islamic/details/2022/4/20/2211682/معهد-الفلك-تتعذر-رؤية-الهلال-السبت-في-مصر-والدول-العربية-وعيد-الفطر-الاثنين-",
-      "urlToImage": "https://media.gemini.media/img/large/2022/4/20/2022_4_20_10_24_48_37.jpg",
-      "publishedAt": "2022-04-20T08:20:00Z",
-      "content": "- :\r\n 1 2 .\r\n : 28 29 1443 30/4/2022 ( ).\r\n: .\r\n: ( ) ( ) 15 (14 - 15 ). ( ) (6 20 ).\r\n : 1/5/2022 1443 1443 2/5/2022 ( )."
     },
     {
       "source": {
@@ -86,24 +34,24 @@
         "name": "Skynewsarabia.com"
       },
       "author": "سكاي نيوز عربية",
-      "title": "دليل جديد على احتمال وجود حياة في الفضاء - Sky News Arabia سكاي نيوز عربية",
-      "description": "توصل باحثون في جامعة \"ستانفورد\" الأميركية، إلى أن البرك الجوفية من المياه المالحة على قمر كوكب المشتري \"أوروبا\"، يمكن أن تكون أماكن واعدة للبحث عن علامات للحياة خارج الأرض.",
-      "url": "https://www.skynewsarabia.com/technology/1515907-%D8%AF%D9%84%D9%8A%D9%84-%D8%AC%D8%AF%D9%8A%D8%AF-%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84-%D9%88%D8%AC%D9%88%D8%AF-%D8%AD%D9%8A%D8%A7%D8%A9-%D8%A7%D9%84%D9%81%D8%B6%D8%A7%D8%A1",
-      "urlToImage": "https://www.skynewsarabia.com/images/v1/2022/04/20/1515905/1200/630/1-1515905.jpg",
-      "publishedAt": "2022-04-20T08:03:36Z",
+      "title": "علماء فلك يحلّون \"اللغز القديم\" للكوكبين البعيدين - Sky News Arabia سكاي نيوز عربية",
+      "description": "توصل علماء فلك مؤخرا إلى تفسير اختلاف مظهر \"أورانوس\" و\"نبتون\"، رغم وجود الكثير من القواسم المشتركة بين الكوكبين.",
+      "url": "https://www.skynewsarabia.com/technology/1527377-%D8%B9%D9%84%D9%85%D8%A7%D8%A1-%D9%81%D9%84%D9%83-%D9%8A%D8%AD%D9%84%D9%91%D9%88%D9%86-%D8%A7%D9%84%D9%84%D8%BA%D8%B2-%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85-%D9%84%D9%84%D9%83%D9%88%D9%83%D8%A8%D9%8A%D9%86-%D8%A7%D9%84%D8%A8%D8%B9%D9%8A%D8%AF%D9%8A%D9%86",
+      "urlToImage": "https://www.skynewsarabia.com/images/v1/2022/06/01/1527373/1200/630/1-1527373.jpg",
+      "publishedAt": "2022-06-01T12:41:36Z",
       "content": null
     },
     {
       "source": {
-        "id": "google-news",
-        "name": "Google News"
+        "id": null,
+        "name": "Youm7.com"
       },
       "author": null,
-      "title": "مؤلفون يحتجون على مقرر الرياضيات - Hespress هسبريس",
-      "description": null,
-      "url": "https://news.google.com/__i/rss/rd/articles/CBMi0QFodHRwczovL3d3dy5oZXNwcmVzcy5jb20vJUQ5JTg1JUQ4JUE0JUQ5JTg0JUQ5JTgxJUQ5JTg4JUQ5JTg2LSVEOSU4QSVEOCVBRCVEOCVBQSVEOCVBQyVEOSU4OCVEOSU4Ni0lRDglQjklRDklODQlRDklODktJUQ5JTg1JUQ5JTgyJUQ4JUIxJUQ4JUIxLSVEOCVBNyVEOSU4NCVEOCVCMSVEOSU4QSVEOCVBNyVEOCVCNiVEOSU4QSVEOCVBNyVEOCVBQS05NzYyMjQuaHRtbNIBAA?oc=5",
-      "urlToImage": null,
-      "publishedAt": "2022-04-20T06:37:25Z",
+      "title": "ذاكر معانا.. أقوى مراجعة نهائية لمنهج الإحصاء للثانوية العامة.. فيديو - اليوم السابع",
+      "description": "يقدم اليوم السابع خدمة مجانية لطلاب الثانوية العامة على مستوى الجمهورية، فيمكنك متابعة أقوى المراجعات النهائية للثانوية العامة على \"اليوم السابع\" بمواد تعليمية مبسطة",
+      "url": "https://www.youm7.com/story/2022/6/1/ذاكر-معانا-أقوى-مراجعة-نهائية-لمنهج-الإحصاء-للثانوية-العامة-فيديو/5784496",
+      "urlToImage": "https://img.youm7.com/large/202107250142304230.jpg",
+      "publishedAt": "2022-06-01T12:32:00Z",
       "content": null
     },
     {
@@ -112,25 +60,25 @@
         "name": "Aljazeera.net"
       },
       "author": "Al Jazeera",
-      "title": "اكتشاف ترياق طبيعي للقضاء على أنواع غازية من النمل - الجزيرة نت",
-      "description": "يريد العلماء القضاء على “النمل الأسمر المجنون” الذي يدمر النظم البيئية. لتحقيق هذا الهدف، سيتم اختبار ترياق على هذا النوع من الكائنات في فصل الربيع في ولاية تكساس الأميركية.",
-      "url": "https://www.aljazeera.net/news/science/2022/4/20/اكتشاف-ترياق-للقضاء-أنواع-من-النمل",
-      "urlToImage": "https://www.aljazeera.net/wp-content/uploads/2022/04/GettyImages-186823289.jpg?resize=1200%2C630",
-      "publishedAt": "2022-04-20T06:30:21Z",
-      "content": "\" \" . .\r\n \" Le Temps\" 20 . University of Texas at Austin .\r\n Edward LeBrun \" \" .\r\n\" \" ( )\r\n\"\" \r\n \" \" .\r\n \"\" .\r\n \" \" \" \" . \"\" .\r\n . .\r\n ( - )\r\n2014\r\n 8 .\r\n \"\" . .  .\r\n 15 8 60% .\r\n \" \" ()\r\n.\r\n \" \" . .… [+7 chars]"
+      "title": "متفوقة على انعدام الجاذبية.. رائدة فضاء صينية تشرح كيفية غسل شعرها الطويل في الفضاء - الجزيرة نت",
+      "description": "وثقت رائدة فضاء صينية تدعى وانغ يابينغ كيفية غسل رواد الفضاء شعر رؤوسهم خلال وجودهم في مهمات خاصة بمحطة الفضاء تيانغونغ. وظهرت وانغ في الفيديو رفقة الأدوات التي تستخدمها.",
+      "url": "https://www.aljazeera.net/news/miscellaneous/2022/6/1/متفوقة-على-انعدام-الجاذبية-رائدة-فضاء",
+      "urlToImage": "https://www.aljazeera.net/wp-content/uploads/2022/05/555-8.jpg?resize=1200%2C630",
+      "publishedAt": "2022-06-01T09:26:21Z",
+      "content": ". \" \" (CNSA Watcher) . : . . . . ."
     },
     {
       "source": {
         "id": null,
-        "name": "Lebanon24.com"
+        "name": "صحيفة البيان"
       },
-      "author": null,
-      "title": "كان يعلم بمواعيد انقطاع الكهرباء.. تفاصيل جديدة عن جريمة المروج - Lebanon24",
-      "description": "",
-      "url": "https://www.lebanon24.com/news/lebanon/943998/%D9%83%D8%A7%D9%86-%D9%8A%D8%B9%D9%84%D9%85-%D8%A8%D9%85%D9%88%D8%A7%D8%B9%D9%8A%D8%AF-%D8%A7%D9%86%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D9%83%D9%87%D8%B1%D8%A8%D8%A7%D8%A1-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%B9%D9%86-%D8%AC",
-      "urlToImage": "https://www.lebanon24.com/uploadImages/DocumentImages/Doc-P-943998-637860315419338791.jpg",
-      "publishedAt": "2022-04-20T03:10:17Z",
-      "content": ". . . . . . . . : « . 25 . ».. : « . ». » » . » « . . . ».\r\n. . : « . ». . ."
+      "author": "البيان",
+      "title": "خبر غريب.. عالم يؤكد وجود 4 حضارات معادية للبشر في مجرة درب التبانة - البيان الصحي",
+      "description": "انتقل عالم فضاء إسباني من فرضية وجود حضارات في الفضاء غير البشر إلى تأكيد تلك الفرضيات بوجود 5 حضارات في مجرتنا درب التبانة، بما فيها 4 معادية للبشر، إلا أنها غير قادرة على مهاجمتنا.وتوصل إلى هذا الاستنتاج العالم الإسباني من جامعة \"فيغو\" ألبرتو كاباليرو.",
+      "url": "https://www.albayan.ae/varieties/2022-06-01-1.4447556",
+      "urlToImage": "https://www.albayan.ae/polopoly_fs/1.4447557.1654073002!/image/image.jpg",
+      "publishedAt": "2022-06-01T08:41:00Z",
+      "content": "5 4 .\r\n \"\" . \" \" \" \".\r\n .\r\n 1962 3 :\" \".\r\n 1974 \"\" \" 13\" .\r\nMETI \" \" 30 .\r\n .\r\n .\r\n 3 .\r\n \"\" .\r\n \" \" 10 65 75% . 100 . .\r\n . \"\" . ."
     },
     {
       "source": {
@@ -138,64 +86,25 @@
         "name": "Youm7.com"
       },
       "author": null,
-      "title": "لا يفوتكم.. اصطفاف أربعة كواكب فجر اليوم فى مشهد بديع يشاهد بالعين المجردة - اليوم السابع",
-      "description": "يستعد الراصدون في مصر والوطن العربي لاصطفاف أربعة كواكب لامعة فى سماء الصباح قبل شروق الشمس مباشرة اليوم الأربعاء 20 أبريل 2022.",
-      "url": "https://www.youm7.com/story/2022/4/20/لا-يفوتكم-اصطفاف-أربعة-كواكب-فجر-اليوم-فى-مشهد-بديع/5733791",
-      "urlToImage": "https://img.youm7.com/large/202112281259545954.jpg",
-      "publishedAt": "2022-04-20T00:00:00Z",
+      "title": "طلاب الأول والثانى الثانوى يؤدون امتحان الفرصة البديلة فى الرياضيات والكيمياء - اليوم السابع",
+      "description": "بدأ طلاب الصفين الأول والثانى الثانوى العام، أداء امتحان الفرصة البديلة فى مواد الرياضيات واللغة الأجنبية الأولى والفلسفة والمنطق لأولى ثانوى.",
+      "url": "https://www.youm7.com/story/2022/6/1/طلاب-الأول-والثانى-الثانوى-يؤدون-امتحان-الفرصة-البديلة-فى-الرياضيات/5783902",
+      "urlToImage": "https://img.youm7.com/large/202205140915311531.jpg",
+      "publishedAt": "2022-06-01T07:22:00Z",
       "content": null
     },
     {
       "source": {
         "id": null,
-        "name": "Babnet.net"
-      },
-      "author": "Babnet",
-      "title": "أمين سليم يرجح ظهور سلالة جديدة تأخذ مكان متفرع أوميكرون نتيجة للاوضاع الانسانية بسبب الحرب الروسية الاوكرانية - Babnet",
-      "description": "رجّح الأخصّائي في علم الفيروسات وعضو اللجنة العلمية لمجابهة انتشار فيروس كورونا، أمين سليم، اليوم الثلاثاء، فرضية ظهور سلالة جديدة متحوّرة لفيروس كور",
-      "url": "https://www.babnet.net/cadredetail-244828.asp",
-      "urlToImage": "https://www.babnet.net/images/2b/5f5f59561b1ec9.71605604_oihmpnjkgleqf.jpg",
-      "publishedAt": "2022-04-19T23:00:56Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Alarabiya.net"
+        "name": "Youm7.com"
       },
       "author": null,
-      "title": "أول 10 وفيات ضحايا الموجة الجديدة من كورونا في الصين - العربية",
-      "description": "",
-      "url": "https://www.alarabiya.net/alarabiya-today/2022/04/20/%D8%A3%D9%88%D9%84-10-%D9%88%D9%81%D9%8A%D8%A7%D8%AA-%D8%B6%D8%AD%D8%A7%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D9%88%D8%AC%D8%A9-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%85%D9%86-%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D9%8A%D9%86",
-      "urlToImage": "https://vid.alarabiya.net/images/2022/04/20/adb48074-d30e-4660-9d6c-3997dc80f1be/adb48074-d30e-4660-9d6c-3997dc80f1be_16x9_600x338.jpg",
-      "publishedAt": "2022-04-19T21:56:00Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Tayyar.org"
-      },
-      "author": "",
-      "title": "كورونا اليوم كم بلغ عدد الإصابات والوفيات - tayyar.org",
-      "description": "أعلنت وزارة الصحة العامة في تقريرها اليومي تسجيل \"126  إصابة جديدة بفيروس كورونا رفعت العدد التراكمي للحالات المثبتة الى 1095811، كما تم تسجيل حالتي وفاة\".",
-      "url": "https://www.tayyar.org/News/Lebanon/472243/كورونا-اليوم--كم-بلغ-عدد-الإصابات-والوفيات-",
-      "urlToImage": "https://static.tayyar.org/Content/ResizedImages/663/423/outside/coronaleb220413072934867~.jpg",
-      "publishedAt": "2022-04-19T15:51:29Z",
-      "content": "Your job has been successfully posted.\r\nYour story has been successfully deleted.\r\nYour message has been sent, we will get back to you soon.\r\nYour profile has been updated.\r\nYour story has been succe… [+774 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Emarat-news.ae"
-      },
-      "author": null,
-      "title": "الفلكية مايا هزيم تكشف أهم الزوايا والمنزلة القمرية ليوم الأربعاء - الإمارات نيوز",
-      "description": "خاص   الأربعاء 20 أبريل 2022 20/4/2022 *المنزلة القمرية و أهمّ الزوايا ليوم الأربعاء : يستمرّ القمر في منزلة الغنائم (النعائم) لقرابة 11 صباحاً و",
-      "url": "https://emarat-news.ae/606873/الفلكية-مايا-هزيم-تكشف-أهم-الزوايا-وا-291/",
-      "urlToImage": "https://emarat-news.b-cdn.net/wp-content/uploads/2021/02/emarat-news_2021-02-25_20-12-24_191564.jpg",
-      "publishedAt": "2022-04-19T15:34:25Z",
-      "content": "20 202220/4/2022\r\n* :\r\n () 11 .. ..* () .. .. : ..: .. .. : .. ..\r\n* :\r\n 90° .. .. .. :."
+      "title": "هل سيكون البشر على المريخ من السايبورج؟.. اعرف يعنى إيه وليه هيحتاجوا للتحول؟ - اليوم السابع",
+      "description": "رغم أن فكرة العيش على كوكب المريخ قد تبدو وكأنها حبكة لأحدث أفلام الخيال العلمي، فإن الشركات بما في ذلك ناسا وسبيس إكس تنظر بجدية في ذلك على أنه احتمال سيتحول لواقع قريب.",
+      "url": "https://www.youm7.com/story/2022/6/1/هل-سيكون-البشر-على-المريخ-من-السايبورج-اعرف-يعنى-إيه/5783381",
+      "urlToImage": "https://img.youm7.com/large/202203060731303130.jpg",
+      "publishedAt": "2022-06-01T07:00:00Z",
+      "content": ".\r\n\" \" .\r\n: \" \".\r\n \"\" .\r\n.\r\n: \" \".\r\n.\r\n.\r\n.\r\n-200 (-128 ) -128.6 (-88 ).\r\n2019 .\r\n: \" -250 [-156 ] 250 [121 ] \".\r\n.\r\n.\r\n\" \".\r\n.\r\n."
     },
     {
       "source": {
@@ -203,25 +112,77 @@
         "name": "Google News"
       },
       "author": null,
-      "title": "لماذا يعيش البشر حياة أطول بكثير من الحيوانات؟.. العلم يجيب - المصري لايت - Al-Masry Al-Youm",
+      "title": "أزمة كروية لا يريد أن يراها أحد - Al Masry Al Youm - المصري اليوم",
       "description": null,
-      "url": "https://news.google.com/__i/rss/rd/articles/CBMiKmh0dHBzOi8vbGl0ZS5hbG1hc3J5YWx5b3VtLmNvbS9ib3gvMjY4NDUwL9IBAA?oc=5",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiMWh0dHA6Ly93d3cuYWxtYXNyeWFseW91bS5jb20vbmV3cy9kZXRhaWxzLzI2MTE0NDbSATVodHRwczovL3d3dy5hbG1hc3J5YWx5b3VtLmNvbS9uZXdzL2RldGFpbHNhbXAvMjYxMTQ0Ng?oc=5",
       "urlToImage": null,
-      "publishedAt": "2022-04-19T14:02:57Z",
+      "publishedAt": "2022-06-01T01:27:03Z",
       "content": null
     },
     {
       "source": {
         "id": null,
-        "name": "Alquds.co.uk"
+        "name": "Fal3arda.com"
       },
       "author": null,
-      "title": "علماء يحذرون من تواصل “ناسا” مع كائنات قد تغزو الأرض - القدس العربي",
-      "description": "\"القدس العربي\": أطلق علماء جامعة أكسفورد البريطانية ناقوس الخطر بشأن خطط ناسا لبث بيانات الموقع وغيرها من المعلومات في الفضاء، محذرين من أن هذا الجهد قد يكون له عواقب وخيمة غير مقصودة. ويتمثل موضوع الخلاف في \"منارة في المجرة\" (BITG)، وهي عبارة عن بث للبيانات …",
-      "url": "https://www.alquds.co.uk/%d8%b9%d9%84%d9%85%d8%a7%d8%a1-%d9%8a%d8%ad%d8%b0%d8%b1%d9%88%d9%86-%d9%85%d9%86-%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d9%86%d8%a7%d8%b3%d8%a7-%d9%85%d8%b9-%d9%83%d8%a7%d8%a6%d9%86%d8%a7%d8%aa-%d9%82/",
-      "urlToImage": "https://www.alquds.co.uk/wp-content/uploads/2022/04/shutterstock_1461851036.jpg",
-      "publishedAt": "2022-04-19T06:51:53Z",
-      "content": "“ ”: .\r\n “ ” (BITG) “ ”. Allen Telescope SETI (FAST). .\r\n (FHI) . .\r\n “ . ”.\r\n FHI . . : “ ”.\r\n . : “ ”.\r\n Arecibo 1974. Cosmic Calls 1999 2003.\r\n BITG “ ”. “ ” “ ” ."
+      "title": "انكسار الموجة الحارة.. الأرصاد تعلن حالة الطقس غدًا الأربعاء 1 يونيو وبيان درجات الحرارة - كورة في العارضة - كورة في العارضة",
+      "description": "كشفت الهيئة العامة للأرصاد الجوية في البيان الذي نشرته اليوم، عن توقعاتها لحالة الطقس غدًا الأربعاء 1 يونيو، وبيان درجات الحرارة، وقالت الهيئة في بيانها، أن البلاد ستشهد بالساعات المقبلة،... <span class=\"read-more\"><a href=\"https://kora.fal3arda.com/1455406/%…",
+      "url": "https://kora.fal3arda.com/1455406/%d8%a7%d9%86%d9%83%d8%b3%d8%a7%d8%b1-%d8%a7%d9%84%d9%85%d9%88%d8%ac%d8%a9-%d8%a7%d9%84%d8%ad%d8%a7%d8%b1%d8%a9-%d8%a7%d9%84%d8%a3%d8%b1%d8%b5%d8%a7%d8%af-%d8%aa%d8%b9%d9%84%d9%86-%d8%ad%d8%a7%d9%84/",
+      "urlToImage": "https://cdn.fal3arda.com/wp-content/uploads/2022/05/حالة-الطقس-غداً-في-مصر-1654021392.jpg",
+      "publishedAt": "2022-05-31T18:23:33Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "درجات الحرارة حتى يوم الاثنين القادم : الحرارة 37 درجة - جريدة البشاير",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMi5gFodHRwczovL2VsYmFzaGF5ZXIuY29tLzI5OTIxOTMvJUQ4JUFGJUQ4JUIxJUQ4JUFDJUQ4JUE3JUQ4JUFBLSVEOCVBNyVEOSU4NCVEOCVBRCVEOCVCMSVEOCVBNyVEOCVCMSVEOCVBOS0lRDglQUQlRDglQUElRDklODktJUQ5JThBJUQ5JTg4JUQ5JTg1LSVEOCVBNyVEOSU4NCVEOCVBNyVEOCVBQiVEOSU4NiVEOSU4QSVEOSU4Ni0lRDglQTclRDklODQlRDklODIlRDglQTclRDglQUYlRDklODUtJUQ4JUE3L9IBAA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2022-05-31T13:04:45Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Aljazeera.net"
+      },
+      "author": "Al Jazeera",
+      "title": "سأخبرك أن السجائر تسبب السرطان.. لكنك لن تتوقف: هل تكفي الحقائق وحدها لتغيير سلوكنا؟ - الجزيرة نت",
+      "description": "هل البَشر “كائنات عاقلة” حقّا؟ ولو كُنّا كذلك، فلماذا نعتاد على ممارساتٍ وسلوكياتٍ قاتلة وخطيرة ومؤذية؟ ولماذا نُؤمن ونتعلّق بما ثبتَ خطؤه بالفعل؟ وهل الحقائق وحدَها ما يُملي على النّاس سلوكياتهم؟",
+      "url": "https://www.aljazeera.net/sukoon/2022/5/31/سأخبرك-أن-السجائر-تسبب-السرطان-لكنك-لن",
+      "urlToImage": "https://www.aljazeera.net/wp-content/uploads/2021/08/2-125.jpg?resize=1200%2C630",
+      "publishedAt": "2022-05-31T09:55:38Z",
+      "content": ". .\r\n \" \" \r\n(1) 8 . .(2)\r\n : \r\n . \"\" .\r\n.(3) () (Homo-Economicus) () (Homo-Psychologicus) .(4)\r\n . .(5)\r\n . .\r\n: \" \" . .\r\n . \"\" \"\" \r\n . \" \" .(6)\r\n.(7) . .(8)\r\n . (9) \r\n . .\r\n ( : \" \")\r\n(vmPFC) .(10)\r… [+1842 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Scientific American"
+      },
+      "author": "شادي عبد الحافظ",
+      "title": "علماء مصريون يرشحون لك 10 كتب علمية مثيرة لتقرأها - Scientific American",
+      "description": "&#1579;&#1604;&#1575;&#1579;&#1577; &#1593;&#1604;&#1605;&#1575;&#1569; &#1605;&#1606; &#1578;&#1582;&#1589;&#1589;&#1575;&#1578; &#1608;&#1605;&#1580;&#1575;&#1604;&#1575;&#1578; &#1593;&#1604;&#1605;&#1610;&#1577; &#1605;&#1582;&#1578;&#1604;&#1601;&#1577; …",
+      "url": "https://www.scientificamerican.com/arabic/articles/news/egyptian-scientists-recommend-ten-exciting-science-books-for-you-to-read/",
+      "urlToImage": "https://static.scientificamerican.com/arabic/cache/file/CE41ED1B-F4A4-4818-B254DA507CEBFA39.jpg",
+      "publishedAt": "2022-05-31T00:53:25Z",
+      "content": "نتصوّر دائمًا أن هناك فارقًا بين التخصص والهواية، فمتخصصو نطاقٍ ما عادةً ما يلتفتون بشكل أساسي إلى أمور أكاديمية، في حين يلتفت الهواة إلى كتب تبسيط العلوم، لكن ذلك لا يكون صحيحًا في كثير من الأحيان، … [+9212 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nadorcity.com"
+      },
+      "author": "Miga",
+      "title": "إنجاز مشروعين في محمية مارتشيكا لتشجيع الطيور المهاجرة على التكاثر - ناظورسيتي موبايل",
+      "description": "ناظورسيتي: محمد العبوسي نظم فريق دولي مكون من مغاربة وأجانب متخصصين وباحثين في علم الطيور، زيارة ميدانية لمنتجع مارتشيكا، من أجل تنزيل مشروعين يرومان حماية الثروة الإيكولوجية بالمنطقة وتوفير البيئة المناسبة لعيش أنواع محددة من الطيور المهاجرة وتشجيعها على الت…",
+      "url": "https://www.nadorcity.com/إنجاز-مشروعين-في-محمية-مارتشيكا-لتشجيع-الطيور-المهاجرة-على_a114378.html",
+      "urlToImage": "https://www.nadorcity.com/photo/art/grande/64998072-46478171.jpg?v=1653916561",
+      "publishedAt": "2022-05-30T22:51:19Z",
+      "content": null
     },
     {
       "source": {
@@ -229,38 +190,77 @@
         "name": "Youm7.com"
       },
       "author": null,
-      "title": "الصغرى تنخفض لـ14 درجة بالقاهرة.. تعرف على درجات الحرارة المتوقعة حتى السبت - اليوم السابع",
-      "description": "كشفت الهيئة العامة للأرصاد الجوية عن حالة الطقس المتوقعة حتى السبت المقبل، حيث تشهد البلاد طقسا حارا نهارا على القاهرة الكبرى والوجه البحرى..",
-      "url": "https://www.youm7.com/story/2022/4/19/الصغرى-تنخفض-لـ14-درجة-بالقاهرة-تعرف-على-درجات-الحرارة-المتوقعة/5732567",
-      "urlToImage": "https://img.youm7.com/large/20220404100451451.jpg",
-      "publishedAt": "2022-04-19T03:00:00Z",
+      "title": "حالة الطقس اليوم.. ارتفاع فى درجات الحرارة والعظمى بالعاصمة 37 درجة - اليوم السابع",
+      "description": "تتوقع هيئة الأرصاد الجوية أن يشهد اليوم الثلاثاء، ارتفاع فى درجات الحرارة، ليسود طقس شديد الحرارة نهارا على القاهرة الكبرى والوجه البحرى وجنوب سيناء وجنوب البلاد..",
+      "url": "https://www.youm7.com/story/2022/5/31/حالة-الطقس-اليوم-ارتفاع-فى-درجات-الحرارة-والعظمى-بالعاصمة-37/5781768",
+      "urlToImage": "https://img.youm7.com/large/202205131213111311.jpg",
+      "publishedAt": "2022-05-30T22:00:00Z",
       "content": null
     },
     {
       "source": {
         "id": null,
-        "name": "Youm7.com"
+        "name": "Aljazeera.net"
       },
-      "author": null,
-      "title": "تقييم تلاميذ الرابع الابتدائي فى المهام الأدائية بمواد العلوم والمهارات والإنجليزية - اليوم السابع",
-      "description": "أكدت وزارة التربية والتعليم والتعليم الفنى، أنه يتم تقييم تلاميذ الصف الرابع الابتدائي اليوم الثلاثاء فى مواد المهارات المهنية واللغة الإنجليزية والعلوم فى ثان أيام التقييمات فى المهارات المهنية للفصل الدراسي الثاني.",
-      "url": "https://www.youm7.com/story/2022/4/19/تقييم-تلاميذ-الرابع-الابتدائي-فى-المهام-الأدائية-بمواد-العلوم-والمهارات/5732482",
-      "urlToImage": "https://img.youm7.com/large/20211205120717717.jpg",
-      "publishedAt": "2022-04-19T01:24:00Z",
-      "content": null
+      "author": "ليلى علي",
+      "title": "8 أسباب لتعليم العلوم لأطفالك في سن صغيرة - الجزيرة نت",
+      "description": "يظن البعض أنه لا يوجد هدف من تعليم العلوم في الوقت الذي يجب التركيز فيه على تعليم القراءة، لكن خبراء يقولون إن تعليم العلوم في مراحل الطفولة المبكرة له تأثير إيجابي هائل في تشكيل علماء المستقبل.",
+      "url": "https://www.aljazeera.net/news/women/2022/5/30/لماذا-يعتبر-تعليم-العلوم-مهما-في-مرحلة",
+      "urlToImage": "https://www.aljazeera.net/wp-content/uploads/2022/05/shutterstock_1933674410.jpg?resize=1200%2C630",
+      "publishedAt": "2022-05-30T18:25:52Z",
+      "content": ".\r\n \" \" (my teaching cupboard) .\r\n - - .\r\n\" \" (first discoverers) . .\r\n :\r\n.\r\n\" \" .\r\n . .\r\n. .\r\n . .\r\n.\r\n .\r\n .\r\n. .\r\n .\r\n.\r\n.\r\n. .\r\n. :\r\n : \"\" .\r\n : . .\r\n ()\r\n: .\r\n\"\" (Scholastic).\r\n<ul><li> \"\" .</l… [+185 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Emarat-news.ae"
+        "name": "Aljazeera.net"
+      },
+      "author": "Al Jazeera",
+      "title": "أحذية بالأرض وعيون في السماء.. هكذا تؤثر الأقمار الصناعية على الحروب - الجزيرة نت",
+      "description": "نشر موقع مجلة فورين أفيرز الأميركي مقالا طويلا حول الدور الذي تلعبه الأقمار الصناعية، خاصة التجارية، في الحروب الحديثة، مستعينا ببعض الأمثلة من آخر الحروب في العالم، الحرب الأوكرانية.",
+      "url": "https://www.aljazeera.net/news/politics/2022/5/30/أحذية-بالأرض-وعيون-في-السماء-هكذا-تؤثر",
+      "urlToImage": "https://www.aljazeera.net/wp-content/uploads/2022/05/2022-05-EXPLORATION-SPACEX-STARLINK.jpg?resize=1200%2C630",
+      "publishedAt": "2022-05-30T17:39:36Z",
+      "content": "9 53 18 / 2022 ()\r\n(Foreign Affairs) .\r\n - .\r\n.\r\n .\r\n .\r\n. . . . .\r\n .\r\n. : . .\r\n\" \" . .\r\n \" \" \"\" .\r\n (Starlink) .\r\n ."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Alkhaleej365.com"
+      },
+      "author": "سعد محمود",
+      "title": "وردنا التالي\"فلكي يمني يكشف تفاصيل اقتراب شيء كبير سيصطدم بالأرض في هذا التوقيت .. تفاصيل هامة! - الخليج 365",
+      "description": "وردنا التالي&quot;فلكي يمني يكشف تفاصيل اقتراب شيء كبير سيصطدم بالأرض في هذا التوقيت .. تفاصيل هامة!",
+      "url": "https://alkhaleej365.com/alymn-news/11594112/%D9%88%D8%B1%D8%AF%D9%86%D8%A7-%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D9%8A%D9%81%D9%84%D9%83%D9%8A-%D9%8A%D9%85%D9%86%D9%8A-%D9%8A%D9%83%D8%B4%D9%81-%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%82%D8%AA%D8%B1%D8%A7%D8%A8-%D8%B4%D9%8A%D8%A1-%D9%83%D8%A8%D9%8A%D8%B1-%D8%B3%D9%8A%D8%B5%D8%B7%D8%AF%D9%85-%D8%A8%D8%A7%D9%84%D8%A3%D8%B1%D8%B6-%D9%81%D9%8A-%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%AA%D9%88%D9%82%D9%8A%D8%AA--%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D9%87%D8%A7%D9%85%D8%A9.html",
+      "urlToImage": "https://alkhaleej365.com/temp/resized/medium_2022-05-30-cfdd8255b9.jpg",
+      "publishedAt": "2022-05-30T16:55:27Z",
+      "content": "\" .. ! - - \" .. ! 2079.\r\n “ (52768) OR2-1998 6.3 16 1.8 4.1 ( )”.\r\n(1998 OR2) 3 (1.02~3.75) .\r\n “ “ ” (2031 2042 2068 2079 2090) 2020 ( 6.3 ) 2079 ”."
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
       },
       "author": null,
-      "title": "الفلكية مايا هزيم تكشف توقعات الثلاثاء بحسب مسارات الأرقام - الإمارات نيوز",
-      "description": "خاص   توقعات يوم الثلاثاء 19 أبريل 2022 بحسب مسارات الأرقام : التوقعات حسب الأرقام : 19 / 4 / 2022 يوم الثلاثاء ينتقل بمساره للرقم 2 الرقم اثنان",
-      "url": "https://emarat-news.ae/606169/الفلكية-مايا-هزيم-تكشف-توقعات-الثلاثا-28/",
-      "urlToImage": "https://emarat-news.b-cdn.net/wp-content/uploads/2021/04/emarat-news_2021-04-25_19-27-03_458427.jpg",
-      "publishedAt": "2022-04-18T23:04:51Z",
-      "content": "19 2022 : :19 / 4 / 2022\r\n 2 ((2)) .. ..\r\n :\r\n(1)  : .. .. .. .. ..\r\n(2) : .. .. ..\r\n(3)  : .. .. .. ..(4)  : .. .. .. .. .. ..\r\n(5)  : 5+2 .. .. .. ..\r\n(6)  : 8 .. .. .. ..\r\n(7)  : .. .. .. .. ..\r\n(… [+295 chars]"
+      "title": "«بسبب التكاثر الجنسي».. محميات البحر الأحمر تكشف سبب تحول مياه الغردقة للون الأحمر - Al Masry Al Youm - المصري اليوم",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiMmh0dHBzOi8vd3d3LmFsbWFzcnlhbHlvdW0uY29tL25ld3MvZGV0YWlscy8yNjEwMzMy0gE1aHR0cHM6Ly93d3cuYWxtYXNyeWFseW91bS5jb20vbmV3cy9kZXRhaWxzYW1wLzI2MTAzMzI?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2022-05-30T16:05:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "معطيات بشأن ملقحي ومصابي \"كورونا\" - Hespress هسبريس",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMizQFodHRwczovL3d3dy5oZXNwcmVzcy5jb20vJUQ5JTg1JUQ4JUI5JUQ4JUI3JUQ5JThBJUQ4JUE3JUQ4JUFBLSVEOCVBOCVEOCVCNCVEOCVBMyVEOSU4Ni0lRDklODUlRDklODQlRDklODIlRDglQUQlRDklOEEtJUQ5JTg4JUQ5JTg1JUQ4JUI1JUQ4JUE3JUQ4JUE4JUQ5JThBLSVEOSU4MyVEOSU4OCVEOCVCMSVEOSU4OCVEOSU4NiVEOCVBNy0yLTk5NjI4OC5odG1s0gEA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2022-05-30T15:59:39Z",
+      "content": null
     }
   ]
 }

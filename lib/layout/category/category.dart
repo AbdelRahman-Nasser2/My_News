@@ -132,50 +132,42 @@ class CategoryScreen extends StatelessWidget {
                         ),
                       ]),
                 ),
-                body: ConditionalBuilder(
-                  condition: state is! AppGetArticlesScienceLoadingState,
-                  builder: (context) => Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: TabBarView(
-                        dragStartBehavior: DragStartBehavior.down,
-                        children: [
-                          ConditionalBuilder(
-                            condition:
-                                state is! AppGetArticlesSportsLoadingState,
-                            builder: (context) =>
-                                buildCategoryList(context, list: list.sports),
-                            fallback: (context) => Center(
-                                child: CircularProgressIndicator(
-                              color: Colors.blueGrey,
-                            )),
+                body: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: TabBarView(
+                      dragStartBehavior: DragStartBehavior.down,
+                      children: [
+                        ConditionalBuilder(
+                          condition: state is! AppGetArticlesSportsLoadingState,
+                          builder: (context) => buildCategoryList(
+                            context,
+                            list: list.science,
                           ),
-                          ConditionalBuilder(
-                            condition:
-                                state is! AppGetArticlesBusinessLoadingState,
-                            builder: (context) =>
-                                buildCategoryList(context, list: list.business),
-                            fallback: (context) => Center(
-                                child: CircularProgressIndicator(
-                              color: Colors.blueGrey,
-                            )),
-                          ),
-                          ConditionalBuilder(
-                            condition:
-                                state is! AppGetArticlesSportsLoadingState,
-                            builder: (context) =>
-                                buildCategoryList(context, list: list.sports),
-                            fallback: (context) => Center(
-                                child: CircularProgressIndicator(
-                              color: Colors.blueGrey,
-                            )),
-                          ),
-                        ]),
-                  ),
-                  fallback: (context) => Center(
-                    child: CircularProgressIndicator(
-                      color: Colors.blueGrey,
-                    ),
-                  ),
+                          fallback: (context) => Center(
+                              child: CircularProgressIndicator(
+                            color: Colors.blueGrey,
+                          )),
+                        ),
+                        ConditionalBuilder(
+                          condition:
+                              state is! AppGetArticlesBusinessLoadingState,
+                          builder: (context) =>
+                              buildCategoryList(context, list: list.business),
+                          fallback: (context) => Center(
+                              child: CircularProgressIndicator(
+                            color: Colors.blueGrey,
+                          )),
+                        ),
+                        ConditionalBuilder(
+                          condition: state is! AppGetArticlesSportsLoadingState,
+                          builder: (context) =>
+                              buildCategoryList(context, list: list.sports),
+                          fallback: (context) => Center(
+                              child: CircularProgressIndicator(
+                            color: Colors.blueGrey,
+                          )),
+                        ),
+                      ]),
                 ),
               ),
             );
