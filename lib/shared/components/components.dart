@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
-import 'package:mynews/shared/cubit/cubit.dart';
+import 'package:mynews/modules/webview/webview.dart';
 
 //Login Screen components
 Widget appBar() => AppBar();
@@ -62,7 +62,7 @@ Widget text({
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(28),
             borderSide: BorderSide(
-              color: HexColor('#b5862e'),
+              color: Colors.orange,
               width: 1,
             ),
             gapPadding: 10,
@@ -90,18 +90,25 @@ Widget text({
 //Category List
 
 //Category Shape
+
 Widget buildCategoryItem(
+  // tittle=list["title"],
+
   list,
   context, {
   bool color = false,
+  String? tittle,
+  ImageProvider? image,
 }) =>
-    Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
-      child: GestureDetector(
-        onTap: () {},
+    InkWell(
+      onTap: () {
+        navigateTo(context, WebviewScrean(list["url"]));
+      },
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
         child: Container(
           width: double.infinity,
-          height: 320,
+          height: 330,
           decoration: BoxDecoration(
               // color: Colors.red,
               borderRadius: BorderRadius.circular(28),
@@ -120,8 +127,12 @@ Widget buildCategoryItem(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(28),
                   image: DecorationImage(
+                    // title == null ? "jhsdljhg" : title = "${list['content']}",
                     image: NetworkImage(
-                      "${list['urlToImage']}",
+                      (list["urlToImage"] == null)
+                          ? "https://cdn.elwatannews.com/watan/840x473/5956948381439567683.jpg"
+                          : "${list["urlToImage"]}",
+                      // "${list["urlToImage"]}",
                     ),
                     fit: BoxFit.cover,
                   ),
@@ -129,66 +140,85 @@ Widget buildCategoryItem(
                 // width: double.infinity,
                 height: 200,
               ),
-// SizedBox(
-//   height: 5,
-// ),
 
               //title
+
               Padding(
                 padding: EdgeInsets.only(left: 5),
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    Expanded(
-                      // flex: 1,
-                      child: Text(
-                        "${list['title']}",
-                        textDirection: TextDirection.rtl,
-                        style: Theme.of(context).textTheme.displayMedium,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ),
-                    IconButton(
-                        onPressed: AppCubit.get(context).iconChange,
-                        icon: Icon(
-                          Icons.favorite_outline_rounded,
-                          color: AppCubit.get(context).fav,
-                        )),
-                  ],
+                child: Text(
+                  //"title"
+                  (list["title"] == null) ? "Fayoum News" : "${list["title"]}",
+                  textDirection: TextDirection.rtl,
+                  style: Theme.of(context).textTheme.displayMedium,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                 ),
               ),
 
               //description
-              Padding(
-                padding: EdgeInsets.only(
-                  left: 5,
-                ),
-                child: Expanded(
+              //لا لايمكن محاوطة الExpanded ب Padding
+              Expanded(
+                child: Padding(
+                  padding: EdgeInsets.only(
+                    left: 5,
+                  ),
                   child: Text(
-                    "${list['content']}",
+                    (list["description"] == null)
+                        ? "اخبار الفيوم "
+                        : "${list["description"]}",
+                    // "${list['content']}",
                     style: Theme.of(context).textTheme.displaySmall,
-                    maxLines: 3,
+                    textDirection: TextDirection.rtl,
+
+                    maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                   ),
                 ),
               ),
 
               //Author
-              Text(
-                "${list['author']}",
-                textDirection: TextDirection.ltr,
-                style: Theme.of(context).textTheme.displayMedium,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
+              Padding(
+                padding: EdgeInsets.only(
+                  left: 5,
+                ),
+                child: Row(
+                  children: [
+                    CircleAvatar(
+                      radius: 20,
+                      backgroundImage: NetworkImage(
+                        (list["urlToImage"] == null)
+                            ? "https://cdn.elwatannews.com/watan/840x473/5956948381439567683.jpg"
+                            : "${list["urlToImage"]}",
+                        // "${list["urlToImage"]}",
+                      ),
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Expanded(
+                      child: Text(
+                        (list["author"] == null)
+                            ? "Fayoum News"
+                            : "${list["author"]}",
+                        textDirection: TextDirection.ltr,
+                        style: Theme.of(context).textTheme.displayMedium,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                  ],
+                ),
               ),
 
               //Time & Date
-              Expanded(
+              Padding(
+                padding: EdgeInsets.only(
+                  left: 7,
+                ),
                 child: Text(
                   "${list['publishedAt']}",
                   textDirection: TextDirection.rtl,
-                  style: Theme.of(context).textTheme.displayMedium,
+                  style: Theme.of(context).textTheme.labelSmall,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                 ),
@@ -465,73 +495,79 @@ Widget buildCategoryItem(
 //               ),
 //             );
 
-Widget buildCategoryList(
-  context, {
-  required list,
-}) =>
+Widget buildCategoryList(context, {required list, String? tittle}) =>
     ListView.separated(
       physics: BouncingScrollPhysics(),
       scrollDirection: Axis.vertical,
-      itemBuilder: (context, index) => buildCategoryItem(list[index], context),
-      separatorBuilder: (context, index) => SizedBox(),
+      itemBuilder: (
+        context,
+        index,
+      ) =>
+          buildCategoryItem(
+        list[index], context,
+        // title: title == null ? "llll" : "${list['content']}"
+      ),
+      separatorBuilder: (context, index) => SizedBox(
+        height: 3,
+      ),
       itemCount: list.length,
     );
 
 //Category
-Widget buildCategory(
-  context, {
-  required Function() onpress,
-  required String type,
-  required List list,
-}) =>
-    Padding(
-      padding: EdgeInsets.only(top: 10),
-      child: Container(
-        padding: EdgeInsets.only(left: 5, right: 5),
-        // color: Colors.grey[100],
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Padding(
-              padding: EdgeInsets.only(left: 20),
-              child: SizedBox(
-                width: double.infinity,
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    Expanded(
-                      child: Text(
-                        type,
-                        style: Theme.of(context).textTheme.displayLarge,
-                      ),
-                    ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Expanded(
-                      child: TextButton(
-                        child: Text(
-                          "See All",
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w600,
-                            color: Colors.blue,
-                          ),
-                        ),
-                        onPressed: onpress,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-            Expanded(child: buildCategoryList(context, list: list)),
-          ],
-        ),
-      ),
-    );
+// Widget buildCategory(
+//   context, {
+//   required Function() onpress,
+//   required String type,
+//   required List list,
+// }) =>
+//     Padding(
+//       padding: EdgeInsets.only(top: 10),
+//       child: Container(
+//         padding: EdgeInsets.only(left: 5, right: 5),
+//         // color: Colors.grey[100],
+//         child: Column(
+//           mainAxisSize: MainAxisSize.min,
+//           crossAxisAlignment: CrossAxisAlignment.start,
+//           children: [
+//             Padding(
+//               padding: EdgeInsets.only(left: 20),
+//               child: SizedBox(
+//                 width: double.infinity,
+//                 child: Row(
+//                   mainAxisSize: MainAxisSize.max,
+//                   mainAxisAlignment: MainAxisAlignment.spaceAround,
+//                   children: [
+//                     Expanded(
+//                       child: Text(
+//                         type,
+//                         style: Theme.of(context).textTheme.displayLarge,
+//                       ),
+//                     ),
+//                     SizedBox(
+//                       width: 10,
+//                     ),
+//                     Expanded(
+//                       child: TextButton(
+//                         child: Text(
+//                           "See All",
+//                           style: TextStyle(
+//                             fontSize: 16,
+//                             fontWeight: FontWeight.w600,
+//                             color: Colors.blue,
+//                           ),
+//                         ),
+//                         onPressed: onpress,
+//                       ),
+//                     ),
+//                   ],
+//                 ),
+//               ),
+//             ),
+//             Expanded(child: buildCategoryList(context, list: list)),
+//           ],
+//         ),
+//       ),
+//     );
 
 // Widget buildListItems ()=>ListView.separated(
 //   itemBuilder: (context, index) => Expanded(child: buildCategoryItem(), context)),

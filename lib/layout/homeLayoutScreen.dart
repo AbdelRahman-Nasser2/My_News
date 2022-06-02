@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mynews/modules/popSettings/aboutus/aboutus.dart';
 import 'package:mynews/modules/popSettings/settingScreen/settingscreen.dart';
+import 'package:mynews/shared/components/components.dart';
 import 'package:mynews/shared/cubit/cubit.dart';
 import 'package:mynews/shared/cubit/states.dart';
 import 'package:mynews/shared/cubit/themecubit.dart';
@@ -12,24 +13,101 @@ import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 import '../main.dart';
 
 class HomeLayoutScreen extends StatelessWidget {
-  late String dak;
+  String dark = "xcds";
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (BuildContext context) => AppCubit()
-      // ..getDataBusiness()
-      // ..getDataScience()
-      // ..getDataSports(),
-      ,
-      child: BlocConsumer<AppCubit, AppStates>(
-          listener: (BuildContext context, AppStates state) {},
-          builder: (BuildContext context, AppStates state) {
-            AppCubit cubit = AppCubit.get(context);
-            return Scaffold(
-              endDrawer: IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
-              bottomNavigationBar: SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                reverse: false,
+    return BlocConsumer<AppCubit, AppStates>(
+        listener: (BuildContext context, AppStates state) {},
+        builder: (BuildContext context, AppStates state) {
+          AppCubit cubit = AppCubit.get(context);
+          String? mode = ThemeCubit.get(context).mode;
+          return Scaffold(
+            // endDrawer: IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
+            appBar: AppBar(
+              title: Text("Fayoum News"),
+              actions: [
+                PopupMenuButton(
+                    color: Theme.of(context).indicatorColor,
+                    shape: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(20)),
+                    itemBuilder: (BuildContext context) => [
+                          PopupMenuItem(
+                            child: Row(children: [
+                              Icon(
+                                (ThemeCubit.get(context).isDark)
+                                    ? Icons.wb_sunny_outlined
+                                    : Icons.dark_mode_outlined,
+                                color: (ThemeCubit.get(context).isDark)
+                                    ? Colors.white
+                                    : Colors.black45,
+                              ),
+                              SizedBox(
+                                width: 5,
+                              ),
+                              Text(
+                                (ThemeCubit.get(context).isDark)
+                                    ? "Light Mode"
+                                    : "Dark Mode",
+                                style: TextStyle(
+                                    color: Theme.of(context).primaryColorLight),
+                              ),
+                            ]),
+                            value: MenuValues.mode,
+                          ),
+                          PopupMenuItem(
+                            child: Row(children: [
+                              Icon(
+                                Icons.settings_outlined,
+                                color: Colors.blueGrey,
+                              ),
+                              SizedBox(
+                                width: 5,
+                              ),
+                              Text(
+                                'Settings',
+                                style: TextStyle(
+                                    color: Theme.of(context).primaryColorLight),
+                              ),
+                            ]),
+                            value: MenuValues.settings,
+                          ),
+                          PopupMenuItem(
+                            child: Row(children: [
+                              Icon(
+                                Icons.roundabout_left_outlined,
+                                color: Colors.grey,
+                              ),
+                              SizedBox(
+                                width: 5,
+                              ),
+                              Text(
+                                'About Us',
+                                style: TextStyle(
+                                    color: Theme.of(context).primaryColorLight),
+                              ),
+                            ]),
+                            value: MenuValues.aboutus,
+                          ),
+                        ],
+                    onSelected: (value) {
+                      switch (value) {
+                        case MenuValues.mode:
+                          ThemeCubit.get(context).themeChange();
+                          break;
+                        case MenuValues.settings:
+                          navigateTo(context, settingScreen());
+                          break;
+                        case MenuValues.aboutus:
+                          navigateTo(context, aboutUsScreen());
+                          break;
+                      }
+                    }),
+              ],
+            ),
+            bottomNavigationBar: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              reverse: false,
+              child: Expanded(
                 child: SalomonBottomBar(
                   items: [
                     /// menu
@@ -74,79 +152,10 @@ class HomeLayoutScreen extends StatelessWidget {
                   curve: Curves.bounceIn,
                 ),
               ),
-              appBar: AppBar(
-                title: Text("Fayoum News"),
-                actions: [
-                  PopupMenuButton(
-                      itemBuilder: (BuildContext context) => [
-                            PopupMenuItem(
-                              child: Row(children: [
-                                Icon(
-                                  Icons.dark_mode_outlined,
-                                  color: Colors.black45,
-                                ),
-                                SizedBox(
-                                  width: 5,
-                                ),
-                                TextButton(
-                                  onPressed: () {},
-                                  child: Text("Dark Mode"),
-                                ),
-                              ]),
-                              value: MenuValues.mode,
-                            ),
-                            PopupMenuItem(
-                              child: Row(children: [
-                                Icon(
-                                  Icons.settings_outlined,
-                                  color: Colors.blueGrey,
-                                ),
-                                SizedBox(
-                                  width: 5,
-                                ),
-                                Text('Settings'),
-                              ]),
-                              value: MenuValues.settings,
-                            ),
-                            PopupMenuItem(
-                              child: Row(children: [
-                                Icon(
-                                  Icons.roundabout_left_outlined,
-                                  color: Colors.grey,
-                                ),
-                                SizedBox(
-                                  width: 5,
-                                ),
-                                Text('About Us'),
-                              ]),
-                              value: MenuValues.aboutus,
-                            ),
-                          ],
-                      onSelected: (value) {
-                        switch (value) {
-                          case MenuValues.settings:
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => settingScreen()),
-                            );
-                            break;
-                          case MenuValues.mode:
-                            ThemeCubit.get(context).themeChange();
-                            break;
-                          case MenuValues.aboutus:
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => aboutUsScreen()));
-                            break;
-                        }
-                      }),
-                ],
-              ),
-              body: cubit.screens[cubit.bottomNavIndex],
-            );
-          }),
-    );
+            ),
+
+            body: cubit.screens[cubit.bottomNavIndex],
+          );
+        });
   }
 }

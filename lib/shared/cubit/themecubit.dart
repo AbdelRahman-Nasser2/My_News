@@ -11,17 +11,22 @@ class ThemeCubit extends Cubit<ThemeStates> {
 
   //Theme Mode
   bool isDark = true;
-
-  void themeChange({bool? fromShared, String? dark}) {
+  String? mode;
+  void themeChange({
+    bool? fromShared,
+    String? mode,
+  }) {
     if (fromShared != null) {
       isDark = fromShared;
-      dark = "Light Mode";
+      mode = "Light Mode";
       emit(ChangeThemeState());
+      emit(ChangeTextThemeState());
     } else {
       isDark = !isDark;
-      dark = "Dark Mode";
-      CacheHelper.putBoolean(key: dark, value: isDark).then((value) {
+      mode = "Dark Mode";
+      CacheHelper.putBoolean(key: "isDark", value: isDark).then((value) {
         emit(ChangeThemeState());
+        emit(ChangeTextThemeState());
       });
     }
   }

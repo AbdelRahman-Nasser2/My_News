@@ -14,6 +14,7 @@ class AppCubit extends Cubit<AppStates> {
   AppCubit() : super(AppInitialState());
 
   static AppCubit get(context) => BlocProvider.of(context);
+  // bool aa = ThemeCubit.get(context).isDark;
 
 //part of AnimatedBottomNavigationBar
 
@@ -53,30 +54,14 @@ class AppCubit extends Cubit<AppStates> {
 
   //Theme Mode
   bool isDark = true;
-  void themeChange() {
-    isDark = !isDark;
-    emit(AppChangeThemeState());
-  }
+  // void themeChange() {
+  //   isDark = !isDark;
+  //   emit(AppChangeThemeState());
+  // }
+  void themeChange({String? mode}) {}
 
 //  Parts of APIs
-
-  List<dynamic> articles = [];
-  void getData() {
-    emit(AppGetArticlesLoadingState());
-    // sources=techcrunch&apiKey=ee564a6a28654d1f967de3e14d78921f
-    DioHelper.getData(url: 'v2/top-headlines', query: {
-      'sources': 'techcrunch',
-      'apiKey': 'ee564a6a28654d1f967de3e14d78921f',
-    }).then((value) {
-      print(value.data["articles"][0]["title"]);
-      articles = value.data["articles"];
-      print(articles[1]["title"]);
-      emit(AppGetArticlesState());
-    }).catchError((error) {
-      print(error.toString());
-      emit(AppGetArticlesErrorState(error));
-    });
-  }
+  List<dynamic> total = [];
 
   // part Sports
   List<dynamic> sports = [];
@@ -91,6 +76,7 @@ class AppCubit extends Cubit<AppStates> {
       }).then((value) {
         // print(value.data["articles"][0]["title"]);
         sports = value.data["articles"];
+        total = value.data["articles"];
         // print(articles[1]["title"]);
         emit(AppGetArticlesSportsState());
       }).catchError((error) {
@@ -104,17 +90,19 @@ class AppCubit extends Cubit<AppStates> {
 
   // part Business
   List<dynamic> business = [];
-//https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=ee564a6a28654d1f967de3e14d78921f
+  //https://newsapi.org/v2/top-headlines?country=eg&category=science&apiKey=65f7f556ec76449fa7dc7c0069f040ca
   void getDataBusiness() {
     emit(AppGetArticlesBusinessLoadingState());
     if (business.isEmpty) {
       DioHelper.getData(url: 'v2/top-headlines', query: {
-        'country': 'us',
-        'category': 'business',
+        'country': 'eg',
+        'category': 'Business',
         'apiKey': 'ee564a6a28654d1f967de3e14d78921f',
       }).then((value) {
         // print(value.data["articles"][0]["title"]);
         business = value.data["articles"];
+        total = value.data["articles"];
+
         // print(articles[1]["title"]);
         emit(AppGetArticlesBusinessState());
       }).catchError((error) {
@@ -147,6 +135,72 @@ class AppCubit extends Cubit<AppStates> {
       });
     } else {
       emit(AppGetArticlesScienceState());
+    }
+  }
+
+  //part Search
+  List<dynamic> search = [];
+  void getDataSearch(String value) {
+    emit(AppGetSearchLoadingState());
+    // search = [];
+    DioHelper.getData(url: 'v2/everything', query: {
+      'q': '$value',
+      'apiKey': '65f7f556ec76449fa7dc7c0069f040ca',
+    }).then((value) {
+      print(value.data["articles"][0]["title"]);
+      search = value.data["articles"];
+      // total = articles;
+      // print(articles[1]["title"]);
+      emit(AppGetSearchState());
+    }).catchError((error) {
+      print(error.toString());
+      emit(AppGetArticlesErrorState(error));
+    });
+  }
+
+  List<dynamic> articles = [];
+  void getData() {
+    emit(AppGetArticlesLoadingState());
+    // sources=techcrunch&apiKey=ee564a6a28654d1f967de3e14d78921f
+    DioHelper.getData(url: 'v2/top-headlines', query: {
+      'sources': 'techcrunch',
+      'apiKey': 'ee564a6a28654d1f967de3e14d78921f',
+    }).then((value) {
+      print(value.data["articles"][0]["title"]);
+      articles = value.data["articles"];
+      total = value.data["articles"];
+      // print(articles[1]["title"]);
+      emit(AppGetArticlesState());
+    }).catchError((error) {
+      print(error.toString());
+      emit(AppGetArticlesErrorState(error));
+    });
+  }
+
+  //Part US Business
+  List<dynamic> usBusiness = [];
+
+  //https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=ee564a6a28654d1f967de3e14d78921f
+  void getDataUSBusiness() {
+    emit(AppGetArticlesUSBusinessLoadingState());
+    if (usBusiness.isEmpty) {
+      DioHelper.getData(url: 'v2/top-headlines', query: {
+        'country': 'us',
+        'category': 'business',
+        'apiKey': 'ee564a6a28654d1f967de3e14d78921f',
+      }).then((value) {
+        // print(value.data["articles"][0]["title"]);
+        usBusiness = value.data["articles"];
+        // total = business;
+
+        // print(articles[1]["title"]);
+        emit(AppGetArticlesUSBusinessState());
+      }).catchError((error) {
+        print(error.toString());
+        emit(AppGetArticlesUSBusinessErrorState(error));
+      });
+    } else {
+      emit(AppGetArticlesUSBusinessState());
     }
   }
 }
